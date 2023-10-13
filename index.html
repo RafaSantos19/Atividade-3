@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+      
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="inicio-section">
+            <div>
+                <h1>Bem-vindo ao Lar do Axolote</h1>
+                <p>Se você é um amante de animais exoticos</p>
+                <p>venha conhecer a nossa empresa</p>
+                <a href="" type="">Nos adote</a>
+            </div>
+            <img src="./image/axolotl-background2.jpg" alt="">
+        </section>
+    
+        <section id="sobre" class="sobre-section">
+            <img src="./image/axo_beauty.png" alt="">
+            <div>
+                <h1>Sobre Nós</h1>
+
+            <p>A Lar Axolote é uma empresa inovadora que está conquistando o coração de amantes de animais exóticos e entusiastas da 
+                preservação da vida aquática em todo o mundo. Este marketplace único é dedicado à doação e cuidado de uma das criaturas 
+                mais cativantes e peculiares do reino animal: o axolote, também conhecido como "monstro d'água" ou "amigo mexicano".</p>
+            </div>
+        </section>
+    
+        <section id="contato">
+            <div>
+                <h2>Contato</h2> 
+                <p>Para entrar em contato conosco</p>
+                <p>preencha o formulário ao lado</p>
+            </div>
+            <form id="contato-form" action="processar_formulario.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            
+                <button type="submit">Enviar</button>
+            </form>
+            
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Lar do Axolote. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Comfortaa:wght@700&display=swap');
+
+
+/* Reset de estilos padrão do navegador */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo geral da página */
+body {
+   /* font-family: 'Varela Round', sans-serif; */
+   /* font-family: 'Comfortaa', sans-serif; */
+    color:#fff;
+    line-height: 1.6;
+    font-family: 'Comfortaa', sans-serif; 
+}
+
+body h1, h2{
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    background-color: #000000;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+header nav li {
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+header a:hover {
+    color: #9D6B8F;
+    transition: 0.3s;
+    font-size: 10px;
+}
+
+
+/* Seções */
+section {
+    padding: 20px;
+    /* margin: 20px; */
+    background-color: #080808;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#inicio div, #contato div {
+    /* flex: 1; */
+    /* background-color: #000000; */
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 140%;
+}
+
+/* estilo section inicio */
+#inicio h1:hover{
+    color: #9D6B8F;
+    transition: 0.2s;
+    transition-delay: 0.2s;
+    font-size: 175%;
+}
+
+#inicio img {
+    /* flex: 1; */
+    /* order: 1; */
+    width: 50%;
+    border-radius: 10px;
+}
+
+#inicio a {
+    border: 2px white solid;
+    border-radius: 5px;
+    background-color:white;
+    color: #000000;
+    padding: 2%;
+    text-decoration: none;
+    /* display: block; */
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 20px;
+    display: inline-block;
+    transition: 0.3s; 
+    transition-delay: 0.2s; 
+}
+
+#inicio a:hover{
+    background-color: #9D6B8F;
+    color: #fff;   
+}
+
+#sobre img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Formulário de Contato */
+
+#contato-form {
+    max-width: 600px;
+    margin-right: 20%;
+}
+
+#contato-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contato-form input, #contato-form textarea {
+    width: 200%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contato-form button {
+    font-size: 20px;
+    border: 2px white solid;
+    border-radius: 5px;
+    background-color:white;
+    color: #000000;
+    padding: 5%;
+    text-decoration: none;
+    height: 50px;
+    width: 100%;
+    margin-left: 60%;
+    margin-right: 60%;
+    transition: 0.3s; 
+    transition-delay: 0.2s; 
+}
+
+#contato-form button:hover {
+    background-color: #9D6B8F;
+    color: #fff;   
+}
+
